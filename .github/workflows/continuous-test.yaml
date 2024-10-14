@@ -17,4 +17,4 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Unit tests
-        run: dotnet test APIRecicheck.sln
+        run: dotnet test APIRecicheck/APIRecicheck.sln

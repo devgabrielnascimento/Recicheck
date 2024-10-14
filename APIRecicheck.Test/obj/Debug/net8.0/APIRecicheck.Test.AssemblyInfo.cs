@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIRecicheck.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3f4c901ad8dc251f92022c1c61c251da0fb4c9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4beea77539b180f35ff03c5abd1bab0b97f3f448")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIRecicheck.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIRecicheck.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
