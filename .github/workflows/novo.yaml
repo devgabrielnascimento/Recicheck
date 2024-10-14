@@ -17,7 +17,8 @@ jobs:
           dotnet-version: 8.0.300
 
       - name: Build
-        run: dotnet build
+        run: dotnet build PROJECT_CSHARP/APIRecidcheck.sln
+
 
       - name: Unit tests
         run: dotnet test
