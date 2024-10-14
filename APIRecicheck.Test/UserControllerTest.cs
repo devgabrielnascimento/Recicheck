@@ -45,7 +45,7 @@ namespace APIRecicheck.Test
 
             mockSet.As<IQueryable<UserModel>>()
                 .Setup(m => m.Expression)
-                .Returns(dam,mta.Expression);
+                .Returns(data.Expression);
 
             mockSet.As<IQueryable<UserModel>>()
                 .Setup(m => m.ElementType)
