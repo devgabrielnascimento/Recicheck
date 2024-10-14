@@ -1,0 +1,6 @@
+@APIRecicheck_HostAddress = http://localhost:5182
+
+GET {{APIRecicheck_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
