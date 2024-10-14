@@ -1,0 +1,24 @@
+name: novo
+on:
+  push:  # Mudando de pull_request para push
+    branches: 
+      - feature/**  # O workflow será acionado para branches que começam com 'feature/'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Build
+        run: dotnet build project_csharp/APIRecicheck/APIRecicheck.sln
+
+
+      - name: Unit tests
+        run: dotnet test
