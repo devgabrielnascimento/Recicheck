@@ -5,7 +5,7 @@ on:
       - feature/**  # O workflow será acionado para branches que começam com 'feature/'
 
 jobs:
-  build-and-test:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
